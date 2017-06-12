@@ -5,13 +5,25 @@ import {
   Text,
   View
 } from 'react-native';
-import Bananas from './src/components/Bananas'
+//我的组件
+import Bananas from './src/components/android/Bananas'
+import LotsOfGreetings from './src/components/android/LotsOfGreetings'
+import BlinkApp from './src/components/android/BlinkApp'
+import LotsOfStyles from './src/components/android/LotsOfStyles'
+import FixedDimensionsBasics from './src/components/android/FixedDimensionsBasics'
+import FlexDimensionsBasics from './src/components/android/FlexDimensionsBasics'
+
 
 export default class LearnReactNative extends Component {
   render() {
     return (
       <View style={styles.container}>
         <Bananas />
+        <LotsOfGreetings/>
+        <BlinkApp/>
+        <LotsOfStyles/>
+        {/*<FixedDimensionsBasics/>*/}
+        <FlexDimensionsBasics/>
         <Text style={styles.welcome}>
           Welcome to React Native!
         </Text>
