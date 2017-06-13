@@ -12,6 +12,13 @@ import BlinkApp from './src/components/android/BlinkApp'
 import LotsOfStyles from './src/components/android/LotsOfStyles'
 import FixedDimensionsBasics from './src/components/android/FixedDimensionsBasics'
 import FlexDimensionsBasics from './src/components/android/FlexDimensionsBasics'
+import FlexDirectionBasics from './src/components/android/FlexDirectionBasics'
+import JustifyContentBasics from './src/components/android/JustifyContentBasics'
+import AlignItemsBasics from './src/components/android/AlignItemsBasics'
+import PizzaTranslator from './src/components/android/PizzaTranslator'
+import IScrolledDownAndWhatHappenedNextShockedMe from './src/components/android/IScrolledDownAndWhatHappenedNextShockedMe'
+import FlatListBasics from './src/components/android/FlatListBasics'
+import SectionListBasics from './src/components/android/SectionListBasics'
 
 
 export default class LearnReactNative extends Component {
@@ -59,4 +66,4 @@ const styles = StyleSheet.create({
   },
 });
 
-AppRegistry.registerComponent('LearnReactNative', () => LearnReactNative);
+AppRegistry.registerComponent('LearnReactNative', () => SectionListBasics);
